@@ -1,18 +1,9 @@
-name: testingcodelabs
+name: Run Tests
 
 on:
   push:
     branches:
-      - starter_code
-      - end_codelab_1
-      - end_codelab_2
-      - end_codelab_3
-  pull_request:
-    branches:
-      - starter_code
-      - end_codelab_1
-      - end_codelab_2
-      - end_codelab_3
+      - master
 
 jobs:
   build:
