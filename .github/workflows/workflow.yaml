@@ -17,3 +17,5 @@ jobs:
           java-version: 11
       - name: Unit tests
         run: bash ./gradlew test --stacktrace
+      - name: UI tests
+        run: bash ./gradlew connectedAndroidTest --stacktrace
